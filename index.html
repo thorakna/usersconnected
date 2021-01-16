@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Users Connected Beta™</title>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+        <script src='http://localhost:3005/socket.io/socket.io.js'></script>
+        <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="/app.css">
+    </head>
+    <body>
+      <div id="content">
+        <div id="username">
+          <input type="text" placeholder="Kullanıcı Adı" id="usname">
+          <input style="display:none;" type="password" placeholder="Şifre" id="sifre">
+        </div>
+        <div id="contfjoin">
+          <strong>Bağlı Kullanıcılar (<span style="font-weight:bold;" id="bagliks">0</span>)</strong>
+          <ul id="connectedusers">
+            <li>Loading...</li>
+          </ul>
+          <div style="display:none;" id="backbox">
+            <input id="backurl" type="text" placeholder="Arkaplan resim urlsi?">
+            <button id="backuyg">UYGULA</button>
+          </div>
+        </div>
+        <div id="chbgovde">
+          <ul id="chatbox">
+            <li id="yazismalark">Yazışmalar kaydedilmemektedir.</li>
+          </ul>
+          <div id="messagebox">
+            <input id="message" type="text" placeholder="Mesajınız?">
+            <button id="gonder">GÖNDER</button>
+          </div>
+        </div>
+      </div>
+      <script src="/app.js"></script>
+    </body>
+</html>

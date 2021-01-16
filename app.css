@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#content{
+  background: url("http://i.hizliresim.com/3z7RW2.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#usname, #sifre{
+  border:0px solid;
+  border-radius: 5px;
+  width:300px;
+  height: 40px;
+  padding: 5px 15px;
+}
+#sifre{
+  display: block;
+  margin-top: 15px;
+}
+#contfjoin{
+  background:#FFF;
+  border:0px solid;
+  border-radius:5px;
+  padding:10px 20px;
+  text-align: center;
+  display:none;
+  width: 20%;
+  height:60%;
+  margin-right: 15px;
+  opacity: 0.8;
+}
+#chbgovde{
+  background:#FFF;
+  border:0px solid;
+  border-radius:5px;
+  padding:10px 20px;
+  text-align: center;
+  display:none;
+  width: 70%;
+  height:60%;
+  opacity: 0.8;
+}
+#connectedusers{
+  height: calc(100% - 75px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#connectedusers li{
+  text-decoration: none;
+  list-style-type: none;
+  border:0px solid;
+  border-radius:3px;
+  width: 90%;
+  padding: 5px 10px;
+  background: #aef1a6;
+  margin: 5px auto 5px auto;
+}
+#chatbox{
+  height: calc(100% - 65px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#messagebox, #backbox{
+  height: 65px;
+  border-top: 2px solid gray;
+  border-radius: 10px;
+}
+#chatbox li{
+  text-decoration: none;
+  list-style-type: none;
+  border:0px solid;
+  border-radius:3px;
+  width: 95%;
+  padding: 5px 10px;
+  background: #808080;
+  margin: 5px auto 5px auto;
+  color:white;
+  text-align: left;
+}
+#yazismalark{
+  list-style-type: none;
+  text-decoration: none;
+  border:0px solid;
+  border-radius: 5px;
+  background: orange !important;
+  padding: 5px 10px;
+  width:95%;
+  text-align: center !important;
+}
+.info{
+  background: #2E86C1 !important;
+  text-align: center !important;
+}
+#gonder, #backuyg{
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background: #aef1a6;
+  cursor: pointer;
+}
+#message, #backurl{
+  border: 0px solid;
+  width: calc(100% - 100px);
+  padding: 20px 5px;
+}
