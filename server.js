@@ -59,7 +59,7 @@ io.sockets.on('connection', function (socket){
     }
   });
   socket.on('sifrelilog', (data)=>{
-    if(data.uname == 'Thorakna' && data.sifre == 'Asises3520.'){
+    if(data.uname == 'Thorakna' && data.sifre == 'ÖYLESİNEŞİFRE'){
       socket.emit('sifreliw', true);
       login(data.uname);
     }else if(data.uname == 'Hami Genç' && data.sifre == 'rgbled'){
