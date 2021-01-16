@@ -1,4 +1,4 @@
 # A Simple Real-time Chat Web Application
 
-[center]![](https://i.ibb.co/Lg3FPPQ/logingif.gif)
-![](https://i.ibb.co/XDQvpn1/chrome-capture-1.gif)[/center]
+![](https://github.com/thorakna/usersconnected/blob/master/logingif-min.gif)
+![](https://github.com/thorakna/usersconnected/blob/master/chatgif.gif)
